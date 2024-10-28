@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background-color:  #141414;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size:  16px;
+}
+
+#card {
+    border: white;
+    background-color: #1f1f1f;
+    margin: 30% 3%;
+    padding: 5% 5%;
+    border-radius: 2.5%;
+}
+
+#profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#bio {
+    font-size: sm;
+}
+#links {
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    background-color: #333333;
+    color: white;
+    border: none;
+    margin: 3% 0%;
+    padding: 5% 0%;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: large;
+    
+ }
+ .pic {
+    border-radius: 50%;
+    max-width: 30%;
+    max-height: auto;
+ }
+ .name {
+    font-weight: 700;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding: 0;
+    font-size: x-large;
+ }
+ .location {
+    color: #c5f82a;
+    margin-top:0;
+    margin-bottom: 5%;
+    padding: 0;
+    font-size: small ;
+ }
+.link:hover {
+    opacity: 85%;
+    color: #c5f82a;
+}
+.link:active {
+    background-color: grey;
+    color: #c5f82a;
+    
+}
+/* responsiveness*/
+
+/* Styles for desktops */
+@media (min-width: 575px) {
+    #card {
+        
+        margin: 3% 3%;
+        padding: 5% 5%;   
+    }
+
+    .link {
+        padding: auto;
+    }
+}
